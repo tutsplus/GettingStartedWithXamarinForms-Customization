@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Customization;assembly=Customization"
+					   x:Class="Customization.StyledLabelPage">
+  <StackLayout BackgroundColor="White" Spacing="100" Padding="100">
+    <local:StyledLabel Text="I want to be italicized" TextColor="Black" HorizontalOptions="CenterAndExpand"  />
+    <local:StyledLabel Text="I want to be bold" TextColor="Black" HorizontalOptions="CenterAndExpand"  />
+    <local:StyledLabel Text="I want to be italicized and bold" TextColor="Black" HorizontalOptions="CenterAndExpand"  />
+  </StackLayout>
+	
+</ContentPage>
